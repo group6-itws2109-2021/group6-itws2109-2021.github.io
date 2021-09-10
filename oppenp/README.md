@@ -1,0 +1,1 @@
+For this lab, I had to build a personal page. I built mine using semantic html elements I have never used before, like `<section>` and `<address>`. I am pretty proud of my work, and although I could spend more time fighting with layout, I prefer the more basic look.

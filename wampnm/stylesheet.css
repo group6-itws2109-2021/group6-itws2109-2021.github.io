@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+body {
+    /*font-family: 'Times New Roman', Times, serif, Helvetica, sans-serif; */
+    background: rgba(97, 92, 92, 0.938);
+    position: absolute;
+    /*font-family: 'Ubuntu', sans-serif;*/
+}
+
+
+h1{ 
+    margin: 0 0 0 0;
+    padding: 0;
+    padding-top: 15px;
+    border-right: 200px;
+    width: 1077px;
+    float: left;
+    background: rgba(128, 167, 218, 0.938);
+}
+img{
+    width: 300px;
+    height: 300px;
+    margin-left: 425px;
+    margin-top: 15px;
+}
+
+#contactInfo{
+    float: right;
+    clear:right;
+    margin: 0;
+    padding: 0;
+    background: rgba(128, 167, 218, 0.938);
+}
+
+p{
+    margin: 0;
+    padding: 0;
+}
+
+h3{
+    float: left;
+    clear: left;
+    padding: 0;
+    margin: 0;
+    width: 1077px;
+    height: 23px;
+    font-size: 1em;
+    background: rgba(128, 167, 218, 0.938);
+}
+
+#title1{
+    font-weight: bold;
+    font-size: 1.4em;
+}
+
+#title2{
+    font-weight: bold;
+    font-size: 1.4em;
+}
+
+#title3{
+    font-weight: bold;
+    font-size: 1.4em;
+}
+
+#sub1{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 1.1em;
+}
+
+#sub2{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 1.1em;
+}
+
+#sub3{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 1.1em;
+}
+
+#sub4{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 1.1em;
+}
+
+#sub5{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 1.1em;
+}
+
+#school{
+    float: left;
+    clear: left;
+    margin-left: 50px;
+    margin-top: 50px;
+    background: rgba(128, 167, 218, 0.938);
+}
+
+#jobs{
+    float: right;
+    clear: right;
+    width: 400px;
+    margin-right: 50px;
+    background: rgba(128, 167, 218, 0.938);
+}
+
+#skill{
+    background: rgba(128, 167, 218, 0.938);
+    margin-left: 450px;
+    margin-right: 550px;
+}

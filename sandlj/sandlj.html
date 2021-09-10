@@ -1,0 +1,182 @@
+<!-- sandlj.html -->
+<!-- Jacob Sandling -->
+<!-- ITWS2110 Lab 1 -->
+<!DOCTYPE html>
+<html lang="en" style="scroll-behavior: smooth;">
+    <head>
+        <title>Jacob Sandling - Profile</title>
+        <!-- link to shared group stylesheet in /lab1/resources -->
+        <link rel="stylesheet" href="../resources/style.css"/>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    </head>
+
+    <body class="j_body">
+
+        <header class="j_header-flex">
+            <div class="j_header">
+                <h1 class="j_name"> Jacob Sandling </h1>
+                <nav>
+                    <a href="#j_intro">Introduction</a>
+                    <a href="#j_education">Education</a>
+                    <a href="#j_workExp">Work Experience</a>
+                    <a href="#j_skills">Skills</a>
+                    <a href="../index.html">Back to Group Portfolio</a>
+                </nav>
+            </div>
+        </header>
+        
+        <main class="j_main">
+
+            <!-- Introduction Section -->
+            <!-- Includes: Full Name, Address, Phone, Email (with link), Photo, Objective Statement-->
+            <section id="j_intro">
+                <h2>Introduction</h2>
+                <img id="j_picture" src="./resources/resumePhoto.jpg" alt="A photo of me">
+                <h3 id="j_quote">Hi, I'm Jacob...</h3>
+                <p id="j_blurb">
+                    I'm a Junior Computer Science and Information Technology & Web Sciences Dual Major at RPI. I like developing web sites and services, and I'm interested in all things IoT.
+                    When I'm not behind my keyboard I like hiking, backpacking, music, and movies!
+                </p>
+                <div class="vcard">
+                    <h3>Want to get a hold of me?</h3>
+                    <h4 class="fn j_subtitle">Jacob Sandling</h4> <br/>
+                    Email: <a class="email" href="mailto:jbsandling@gmail.com">jbsandling@gmail.com</a> <br/>
+                    Cell: <span class="tel">+1.757.291.4087</span> <br/>
+                    Address:
+                    <div class="adr">
+                        <span class="street-address">5333 Tower Hill Ct.</span> <br/>
+                        <span class="locality"> Williamsburg</span>, <span class="region">VA</span>,
+                        <span class="postal-code">23188</span>, <span class="country-name">United States</span>
+                    </div>
+                </div>
+                <p>Also check out my <a href="https://github.com/jbsandling"><b>GitHub</b></a> and <a href="https://www.linkedin.com/in/jbsandling/"><b>LinkedIn</b></a></p>
+            </section>
+
+            <!-- Education Section -->
+            <!-- Includes: Education (3 items), Institutions (with links), Degree Program, Dates, Accomplishments  -->
+            <!-- These are formatted as details items, so click to expand, with the most relevant (RPI) open by default -->
+            <section id="j_education">
+                <h2>Education</h2>
+                <details open>
+                    <summary>
+                        <h3 class="j_subtitle">Rensselaer Polytechnic Institute</h3>
+                        <span class="j_date">August 2019 - May 2023</span>
+                    </summary>
+                    <div>
+                        <a href="https://rpi.edu"><abbr title ="Rensselaer Polytechnic Institute">RPI</abbr>'s Website</a> <br/>
+                        I am currently in my 6th semester at RPI persuing a dual major BS in Computer Science and Information Technology & Web Science. <br/>
+                        Troy, NY <br/>
+                        Accomplishments:
+                        <ul>
+                            <li>Dean's Honors List (all semesters)</li>
+                            <li>Rensselaer Leadership Award</li>
+                            <li>3.82 GPA</li>
+                        </ul>
+                    </div>
+                </details>
+                <br/>
+                <details>
+                    <summary>
+                        <h3 class="j_subtitle">Governor's School for Science and Technology</h3>
+                        <span class="j_date">September 2017 - June 2019</span>
+                    </summary>
+                    <div>
+                        <a href="https://nhrec.org/gsst/"><abbr title="Governor's School for Science and Technology">GSST</abbr>'s Website</a> <br/>
+                        I spent my half of my Junior and Senior years of high school at the <abbr title="Governor's School for Science and Technology">GSST</abbr>, 
+                        and was a part of the Computational Physics strand.<br/>
+                        Newport News, VA <br/>
+                        Accomplishments:
+                        <ul>
+                            <li><abbr title="Governor's School for Science and Technology">GSST</abbr> Science Fair Participant</li>
+                            <li>3rd Place at WHRO Great Computer Challenge Scientific Programming 2018</li>
+                            <li>1st Place at WHRO Great Computer Challenge Scientific Programming 2019</li>
+                        </ul>
+                    </div>
+                </details>
+                <br/>
+                <details>
+                    <summary>
+                        <h3 class="j_subtitle">Jamestown High School</h3>
+                        <span class="j_date">September 2014 - June 2019</span>
+                    </summary>
+                    <div>
+                        <a href="https://wjccschools.org/jhs/"><abbr title="Jamestown High School">JHS</abbr>'s Website</a> <br/>
+                        Williamsburg, VA <br/>
+                        Accomplishments:
+                        <ul>
+                            <li>Honor Roll (all semesters)</li>
+                            <li>5 Seasons Varsity in Track and Field</li>
+                            <li>Engineer's Club of the Virginia Peninsula Outstanding Science Student Award Finalist</li>
+                            <li>Member of National Honor Society and Rho Kappa (Social Studies) Honor Society</li>
+                        </ul>
+                    </div>
+                </details>
+            </section>
+
+            <!-- Work Experience Section -->
+            <!-- Includes: 3 items, each with organization (with link), Title, Dates, Details-->
+            <section id="j_workExp">
+                <h2>Work Experience</h2>
+                <div>
+                    <h3 class="j_subtitle">Student Intern at <abbr title="National Aeronautics and Space Administration">NASA</abbr> Langely Aeroelastics </h3>
+                    <span class="j_date">October 2018 - June 2019</span> <br/>
+                    <a href="https://www.nasa.gov/langley"><abbr title="National Aeronautics and Space Administration">NASA</abbr>'s Website </a> <br/>
+                    I served as a student intern working on creating an automated process for translating MATLAB aeroelastic analysis programs into Python and C. 
+                    The Aeroelastics branch wanted to switch off of MATLAB because it was costly and slow, so the calculations would all be perfromed in C, and Python was used to handle
+                    the inputs and create a user interface.<br/>
+                    Newport News, VA
+                </div>
+                <br/>
+                <div>
+                    <h3 class="j_subtitle">Programming Consultant for James City County Sewer and Water</h3>
+                    <span class="j_date">July 2020</span> <br/>
+                    <a href="https://www.jamescitycountyva.gov/611/James-City-Service-Authority">City Service Authority's Website </a> <br/>
+                    I served as a voluntary intern working on creating a Python program that could scrape data from a pdf file, calculate values, and populate a spreadsheet, as well as an
+                    simple user interface for generating the results. <br/>
+                    Williamsburg, VA
+                </div>
+                <br/>
+                <div>
+                    <h3 class="j_subtitle">Open Source Contributor with the Rensselaer Center for Open Source</h3>
+                    <span class="j_date">May 2021 - August 2021</span> <br/>
+                    <a href="https://rcos.io/"><abbr title="Rensselaer Center for Open Source">RCOS</abbr>'s Website </a> and <a href="https://pollbuddy.app/" >Poll Buddy's Website</a> <br/>
+                    I worked with a team of RPI students on the Poll Buddy project, which is an interactive online questionnaire platform meant to replace RPI's iClickers. 
+                    I contributed to bug fixes, new features, and documentation on both the front and backend of this project, which uses MongoDB, Express, React, and NodeJs.<br/>
+                    Troy, NY
+                </div>
+            </section>
+
+            <!-- Skills Section -->
+            <!-- Contains 12 items-->
+            <section id="j_skills">
+                <h2>Skills</h2>
+                I am proficient with:
+                <ul>
+                    <li>Python 3</li>
+                    <li>Java</li>
+                    <li>C/C++</li>
+                    <li>Javascript</li>
+                    <li>React</li>
+                    <li>HTML</li>
+                </ul>
+                I have some experience with:
+                <ul>
+                    <li>PHP</li>
+                    <li>MATLAB</li>
+                    <li>SQL</li>
+                    <li>Tyepscript</li>
+                    <li>NextJs</li>
+                    <li>ExpressJs</li>
+                </ul>
+            </section>
+        </main>
+
+        <!-- Footer with some of the links from above -->
+        <!-- This way they are immediately accessibe when a viewer finishes reading -->
+        <footer id="j_footer">
+            <a href="mailto:jbsandling@gmail.com"><img src="./resources/emailicon.png" alt="Email link" height="50" width="50"/></a>
+            <a href="https://github.com/jbsandling"><img src="./resources/github.png" alt="GitHub link" height="50" width="50"/></a>
+            <a href="https://www.linkedin.com/in/jbsandling/"><img src="./resources/linkedin.png" alt="LinkedIn link" height="50" width="50"/></a>
+        </footer>
+    </body>
+</html>
